@@ -1,0 +1,94 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: rgb(219, 24, 24);
+}
+body{
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+nav{
+  background-color: rgb(36, 56, 94);
+}
+.logo{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+/* hero background image */
+.bgimage {
+  background: url('../images/02-hero-bg.jpg');
+  background-size: cover;
+
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4rem;
+}
+.card{
+  color: white;
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: contain;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  color: white;
+}
+
+#about{
+  color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+} */
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+#services{
+  overflow: hidden;
+  color: white;
+}
+/* footer styling */
+#footer {
+  background-color: #222252;
+  text-align: center;
+}
+/* social media icons styling */
+
+.social-icons {
+  font-size: 25px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #0788eb;
+}
+.fab {
+  color: #ffffff;
+}
